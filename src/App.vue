@@ -1,10 +1,10 @@
 <template>
   <main>
-    <h1>Список моих аниме</h1>
+    <h1>Поиск аниме по названию</h1>
     <form action="#" @submit.prevent="searchAnime">
       <input
           type="text"
-          placeholder="Найти аниме по названию"
+          placeholder="Например, naruto"
           v-model="query"
           @input="handleInput"
       />
